@@ -1,0 +1,22 @@
+meta {
+  name: New book
+  type: http
+  seq: 3
+}
+
+delete {
+  url: http://localhost:3000/books/110
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "book_id": "110",
+    "title": "Avengers",
+    "author": "Tony",
+    "genre": "Sci-Fi",
+    "year": 2001,
+    "copies": 10
+  }
+}

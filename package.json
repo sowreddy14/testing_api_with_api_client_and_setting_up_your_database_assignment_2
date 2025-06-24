@@ -6,7 +6,14 @@
   },
   "dependencies": {
     "body-parser": "^1.20.3",
-    "express": "^4.18.2",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
     "nodemon": "^3.1.7"
-  }
+  },
+  "version": "1.0.0",
+  "description": "You are tasked with developing a Library Management System API that allows users to manage a library's book collection stored in JSON format. The API should support all four CRUD operations (Create, Read, Update, Delete) for the book data. Each book in the library has the following attributes:",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
